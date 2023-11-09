@@ -40,12 +40,16 @@ telent 127.0.0.1 8765
 
  ## 主要代码
 
- app/Console/Commands/telnetServer.php
  服务入口和函数实现
+ 
+ app/Console/Commands/telnetServer.php
+ 
+ 
+ 基础类 生成随机数
  
  app/Library/Helper.php  
 
- 基础类 生成随机数
+ 
 
 
  
