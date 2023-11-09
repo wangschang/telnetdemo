@@ -1,14 +1,25 @@
 
-基于laravel swoole 
+# 基于 laravel swoole 
 
+## 系统需求：
 
-#启动服务 
+ubuntu 22
+
+php 7,4
+
+laravel 8
+
+swoole
+
+## 启动/测试服务 
 
 service:
 
+进入laravel 目录 
 php artisan  telnet:start
 
 client
+任意命令行 
 
 telent 127.0.0.1 8765
 
